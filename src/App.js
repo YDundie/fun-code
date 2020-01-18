@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import LandingScreen from './screens/landingScreen';
+import InfoCountry from './screens/infoCountry';
+
 
 function App() {
   return (
     <div className="App">
-      <LandingScreen />
+      <InfoCountry>
+			</InfoCountry>
     </div>
   );
 }
